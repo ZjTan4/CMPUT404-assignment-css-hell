@@ -6,7 +6,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   text-align: center;
   font-style: normal;
   font-weight: normal;
@@ -28,18 +29,20 @@ h2 {
   margin-bottom: 1em;
 }
 h3 {
-  font-size: 150%;
-  margin-top: 2em;
+  font-size: 130%;
+  margin-top: 1em;
 }
 h4 {
   font-size: 120%;
   margin-top: 1em;
   margin-bottom: 1em;
 }
+h5 {
+  font-size: 110%;
+}
 .no-break {
   page-break-before: avoid;
 }
-/* for epubs */
 hr {
   width: 80%;
   margin-top: 2em;
