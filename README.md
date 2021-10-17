@@ -42,6 +42,7 @@ Code is licensed under the Apache 2.0 license.
 - add `font-family: sans-serif` to the header tag `h1, h2, h3, h4, h5, h6` and the paragraph tag `p`, to theme the header and paragraph and make the page look old. (`serif` makes little difference, `sans-serif` looks better)
 - add `font-size: large` to make the font of paragraph larger so that it looks more comfortable.
 - add `border-radius: 10px` to the image tag `img` to make the edges and corners of images to look softer.
+- set `font-size: large` and add `font-style: italic` in p.poem
 
 # Reference
 
