@@ -28,7 +28,7 @@ Code is licensed under the Apache 2.0 license.
 
 <b> In 2.html </b>
 
-- add <link rel="stylesheet" href="styles.css">
+- add "<link rel="stylesheet" href="styles.css">"
 - remove the style tags in the 2.html, and merge them into the style sheet in the styles.css. That is, add the items that does not previously exist in the sheet, and modify the existing ones so that the styles of the pages doesn't change sharply.
 
 <b> In 3.html </b>
