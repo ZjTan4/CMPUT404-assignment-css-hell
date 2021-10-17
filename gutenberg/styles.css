@@ -49,9 +49,8 @@ hr {
   margin-top: 2em;
   margin-bottom: 2em;
 }
-div.chapter {
-  page-break-before: always;
-  margin-top: 4em;
+img {
+  border-style: none;
 }
 p {
   text-indent: 1em;
@@ -112,12 +111,75 @@ p.copyright {
   text-indent: 0;
   line-height: 150%;
 }
+p.c31 {
+  padding-top: 2em;
+  font-size: 60%;
+  text-indent: 0;
+}
+p.c13 {
+  padding-top: 2em;
+}
+p.c12 {
+  font-size: 90%;
+}
+p.c8 {
+  text-indent: 0;
+}
+p.c4 {
+  padding-bottom: 4em;
+}
+p.c3 {
+  font-size: 120%;
+  padding-bottom: 2em;
+}
+p.c2 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-size: 80%;
+}
+div.chapter {
+  page-break-before: always;
+  margin-top: 4em;
+}
 div.fig {
   display: block;
   margin: 0 auto;
   text-align: center;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+div.note {
+  margin: 4em 10% 0 10%;
+  padding: 1em;
+  border: 1px dashed black;
+  color: inherit;
+  background-color: #f0f8ff;
+  font-size: smaller;
+}
+div.initial {
+  float: left;
+  clear: both;
+  padding-top: 0;
+  padding-right: 0.3em;
+}
+div.backright {
+  background: top right no-repeat;
+}
+div.backleft {
+  background: top left no-repeat;
+}
+div.sandbag-left {
+  float: left;
+  clear: left;
+  padding-right: 10px;
+}
+div.sandbag {
+  float: right;
+  clear: right;
+  padding-left: 10px;
+}
+div.footnote p {
+  text-indent: 0;
 }
 a:link {
   color: blue;
@@ -145,6 +207,9 @@ td.leftalign {
 }
 td.rightalign {
   text-align: right;
+}
+td.c10 {
+  text-align: center;
 }
 .pagenum {
   /* uncomment the next line for invisible page numbers */
@@ -222,11 +287,135 @@ ul {
   top: -0.4em;
 }
 /******************************************************/
-div.c8 {
-  width: 70%;
+
+span.xhtml_big.c9 {
+  font-weight: bold;
+}
+span.xhtml_big.c6 {
+  font-weight: bold;
+}
+span.firstwords {
+  text-transform: uppercase;
+}
+span.c15 {
+  font-size: smaller;
+}
+span.c12 {
+  font-size: smaller;
+}
+span.c10 {
+  font-size: 1.5em;
+}
+span.c9 {
+  font-size: 80%;
+}
+span.c1 {
+  font-size: 50%;
+}
+img.c8 {
+  width: 100%;
 }
 img.c7 {
   width: 100%;
+}
+h4.c11 {
+  font-weight: bold;
+}
+table.c10 {
+  margin-right: auto;
+  margin-left: auto;
+}
+table.c7 {
+  margin-right: auto;
+  margin-left: auto;
+}
+div.c30 {
+  width: 150px;
+  padding-top: 4em;
+}
+div.c29 {
+  background-image: url(images/illu_289.jpg);
+  height: 100%;
+}
+div.c28 {
+  width: 290px;
+  height: 120px;
+}
+div.c27 {
+  width: 400px;
+  height: 170px;
+}
+div.c26 {
+  background-image: url(images/illu_172.jpg);
+  height: 100%;
+}
+div.c25 {
+  width: 355px;
+  height: 250px;
+}
+div.c24 {
+  width: 280px;
+  height: 150px;
+}
+div.c23 {
+  width: 200px;
+}
+div.c22 {
+  width: 164px;
+}
+div.c21 {
+  background-image: url(images/illu_078.jpg);
+  height: 100%;
+}
+div.c20 {
+  width: 245px;
+  height: 230px;
+}
+div.c19 {
+  margin-left: 0.7em;
+}
+div.c18 {
+  text-indent: -0.7em;
+}
+div.c17 {
+  display: block;
+  font-size: 1.1em;
+  margin: 1em 0;
+  font-weight: bold;
+}
+div.c16 {
+  margin: 0.83em 0;
+  font-size: 1.1em;
+  text-align: center;
+}
+div.c15 {
+  text-indent: -0.7em;
+}
+div.c14 {
+  display: block;
+  font-size: 1.1em;
+  margin: 1em 0;
+  font-weight: bold;
+}
+div.c13 {
+  display: block;
+  margin-top: 4em;
+}
+div.c12 {
+  width: 80%;
+}
+div.c11 {
+  display: block;
+  margin-top: 4em;
+}
+div.c9 {
+  width: 65%;
+}
+div.c8 {
+  width: 70%;
+}
+div.c7 {
+  width: 70px;
 }
 div.c6 {
   margin-top: 2em;
