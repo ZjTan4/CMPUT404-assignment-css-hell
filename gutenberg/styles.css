@@ -286,6 +286,9 @@ ul {
   position: relative;
   top: -0.4em;
 }
+.xhtml_big {
+  font-size: larger;
+}
 /******************************************************/
 
 span.xhtml_big.c9 {
