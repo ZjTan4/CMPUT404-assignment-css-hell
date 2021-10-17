@@ -8,7 +8,7 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   text-align: justify;
-  background-color: yellow;
+  background-color: wheat;
 }
 h1,
 h2,
@@ -22,6 +22,8 @@ h6 {
   line-height: 1.5;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  /* theme header */
+  font-family: sans-serif;
 }
 h1 {
   font-size: 300%;
@@ -58,11 +60,15 @@ hr {
 }
 img {
   border-style: none;
+  /* theme image */
+  border-radius: 8px;
 }
 p {
   text-indent: 1em;
   margin-top: 0.25em;
   margin-bottom: 0.25em;
+  /* theme paragraph */
+  font-family: sans-serif;
 }
 .p2 {
   margin-top: 2em;

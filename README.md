@@ -23,19 +23,29 @@ Code is licensed under the Apache 2.0 license.
 
 <b> In 1.html </b>
 
-- add <link rel="stylesheet" href="styles.css">
+- add `<link rel="stylesheet" href="styles.css">`
 - remove the style tags in the 1.html, and add them to the style sheet in styles.css.
 
 <b> In 2.html </b>
 
-- add "<link rel="stylesheet" href="styles.css">"
+- add `<link rel="stylesheet" href="styles.css">`
 - remove the style tags in the 2.html, and merge them into the style sheet in the styles.css. That is, add the items that does not previously exist in the sheet, and modify the existing ones so that the styles of the pages doesn't change sharply.
 
 <b> In 3.html </b>
 
-- add <link rel="stylesheet" href="styles.css">
+- add `<link rel="stylesheet" href="styles.css">`
 - remove the style tags in the 2.html, and merge them into the style sheet in the styles.css. That is, add the items that does not previously exist in the sheet, and modify the existing ones so that the styles of the pages doesn't change sharply.
 
 <b> In styles.css </b>
 
-- add "background-color: yellow;" to the body tag, to make the background color of the pages to be yellowish
+- add `background-color: wheat;` to the body tag, to make the background color of the pages look paper-like.
+- add `font-family: sans-serif` to the header tag `h1, h2, h3, h4, h5, h6` and the paragraph tag `p`, to theme the header and paragraph and make the page look old. (`serif` makes little difference, `sans-serif` looks better)
+- add `border-radius: 8px` to the image tag `img` to make the edges and corners of images to look softer.
+
+# Reference
+
+- The CSS file in part 1 are modified based on the style tags in:
+
+1.  https://www.gutenberg.org/cache/epub/4300/pg4300-images.html
+2.  https://www.gutenberg.org/cache/epub/1661/pg1661-images.html
+3.  https://www.gutenberg.org/cache/epub/25344/pg25344-images.html
