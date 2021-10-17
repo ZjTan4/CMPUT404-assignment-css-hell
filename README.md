@@ -21,8 +21,8 @@ Code is licensed under the Apache 2.0 license.
 
 # Part 1 Changes
 
-1. 1.html
+<b> 1.html </b>
 
-2. 2.html
+<b> 2.html </b>
 
-3. 3.html
+<b> 3.html </b>
