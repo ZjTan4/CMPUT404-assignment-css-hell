@@ -21,8 +21,14 @@ Code is licensed under the Apache 2.0 license.
 
 # Part 1 Changes
 
-<b> 1.html </b>
+<b> In 1.html </b>
 
-<b> 2.html </b>
+- add <link rel="stylesheet" href="styles.css">
 
-<b> 3.html </b>
+<b> In 2.html </b>
+
+- add <link rel="stylesheet" href="styles.css">
+
+<b> In 3.html </b>
+
+- add <link rel="stylesheet" href="styles.css">
