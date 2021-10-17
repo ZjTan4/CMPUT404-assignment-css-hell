@@ -61,7 +61,7 @@ hr {
 img {
   border-style: none;
   /* theme image */
-  border-radius: 8px;
+  border-radius: 10px;
 }
 p {
   text-indent: 1em;
@@ -69,6 +69,7 @@ p {
   margin-bottom: 0.25em;
   /* theme paragraph */
   font-family: sans-serif;
+  font-size: large;
 }
 .p2 {
   margin-top: 2em;
