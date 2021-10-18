@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+p {
+  text-indent: 1em;
+}
+div.header {
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-size: cover;
+  background-position: center;
+  background-color: steelblue;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  box-sizing: border-box;
+  margin-top: 0%;
+}
+div.nav {
+  box-sizing: border-box;
+  margin-top: 0ch;
+  background-color: wheat;
+}
+div.body-content {
+  margin: auto;
+}
+nav {
+  margin-top: 0em;
+  display: block;
+}
+li {
+  display: block;
+  margin-left: 20px;
+}
