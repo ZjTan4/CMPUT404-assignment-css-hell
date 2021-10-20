@@ -51,3 +51,4 @@ Code is licensed under the Apache 2.0 license.
 1.  https://www.gutenberg.org/cache/epub/4300/pg4300-images.html
 2.  https://www.gutenberg.org/cache/epub/1661/pg1661-images.html
 3.  https://www.gutenberg.org/cache/epub/25344/pg25344-images.html
+4.  https://www.w3schools.com/css/css_align.asp
