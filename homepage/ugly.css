@@ -1,0 +1,105 @@
+html {
+  overflow: auto;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: aliceblue;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+p {
+  text-indent: 1em;
+}
+div.header {
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-size: cover;
+  background-position: center;
+  background-color: lightskyblue;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+div.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+div.topnav-content {
+  margin-left: 27.5%;
+}
+div.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 15%;
+}
+div.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+div.body-content {
+  margin-left: 5px;
+  padding-left: 5px;
+  max-width: 600px;
+}
+div.aboutme {
+  margin-top: 20px;
+  margin-left: 10px;
+  display: table;
+  align-content: center;
+}
+div.aboutme-text {
+  display: table-cell;
+  margin-left: 1em;
+  padding-left: 5px;
+  max-width: 400px;
+  float: right;
+}
+div.aboutme-image {
+  display: table-cell;
+  float: left;
+  height: auto;
+  width: 200px;
+}
+div.leftcontent {
+  float: left;
+  font-size: large;
+  margin-left: 10%;
+}
+div.sidebar {
+  float: right;
+  margin-top: 1em;
+  margin-right: 10%;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  background-color: powderblue;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  width: 250px;
+}
+img {
+  display: block;
+  float: left;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+li {
+  margin-top: 1em;
+  font-size: large;
+}
