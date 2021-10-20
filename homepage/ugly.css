@@ -3,7 +3,7 @@ html {
 }
 body {
   font-family: "Times New Roman", Times, serif;
-  background-color: aliceblue;
+  background-color: yellow;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -25,13 +25,16 @@ div.header {
   background-clip: border-box;
   background-size: cover;
   background-position: center;
-  background-color: lightskyblue;
+  background-color: red;
+  font-family: fantasy;
+  font-size: xx-large;
+  color: silver;
   padding-bottom: 5px;
   padding-top: 5px;
   box-sizing: border-box;
 }
 div.topnav {
-  background-color: #333;
+  background-color: green;
   overflow: hidden;
 }
 div.topnav-content {
@@ -69,8 +72,6 @@ div.aboutme-text {
   float: right;
 }
 div.aboutme-image {
-  display: table-cell;
-  float: left;
   height: auto;
   width: 200px;
 }
@@ -86,7 +87,7 @@ div.sidebar {
   padding-left: 1em;
   padding-right: 1em;
   padding-bottom: 1em;
-  background-color: powderblue;
+  background-color: purple;
   border: solid;
   border-color: black;
   border-width: 1px;
