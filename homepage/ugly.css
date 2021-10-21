@@ -2,8 +2,7 @@ html {
   overflow: auto;
 }
 body {
-  font-family: "Times New Roman", Times, serif;
-  background-color: yellow;
+  font-family: fantasy;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -25,16 +24,16 @@ div.header {
   background-clip: border-box;
   background-size: cover;
   background-position: center;
-  background-color: red;
+  background-color: blue;
   font-family: fantasy;
   font-size: xx-large;
-  color: silver;
+  color: yellowgreen;
   padding-bottom: 5px;
   padding-top: 5px;
   box-sizing: border-box;
 }
 div.topnav {
-  background-color: green;
+  background-color: transparent;
   overflow: hidden;
 }
 div.topnav-content {
@@ -42,8 +41,11 @@ div.topnav-content {
 }
 div.topnav a {
   float: left;
-  color: white;
+  background-color: gold;
+  color: black;
   text-align: center;
+  border: solid;
+  border-color: black;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -72,6 +74,8 @@ div.aboutme-text {
   float: right;
 }
 div.aboutme-image {
+  display: table-cell;
+  float: left;
   height: auto;
   width: 200px;
 }
@@ -87,7 +91,7 @@ div.sidebar {
   padding-left: 1em;
   padding-right: 1em;
   padding-bottom: 1em;
-  background-color: purple;
+  background-color: yellow;
   border: solid;
   border-color: black;
   border-width: 1px;
